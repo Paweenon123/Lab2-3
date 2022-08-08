@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Exercise</title>
+</head>
+<body>
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="form-echo.php" method="get">
+    <table border="2" cellpadding="3" cellspacing="4">
+        <th>Username:</th>
+        <th><input type="text" name="ชื่อ" required></th>
+        <tr><td>Password</td><td><input type="password" name="รหัสผ่าน" required></td></tr>
+        <tr><td colspan="3">กรุณาพิมพ์ตามตัวเลขที่ปรากฏ: 1559
+            <br><input type="text" name="พิมตาม" pattern="[1][5][5][9]" required>
+        </td></tr>
+    </table>
+    <a href="logout.html"><img src="login.jpeg" width="180" height="150"></a>
+</form>
+</body>
+</html>
